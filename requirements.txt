@@ -2,7 +2,6 @@ tensorflow
 streamlit
 pillow
 numpy
-io
 tensorflow_hub
 base64
 pandas
