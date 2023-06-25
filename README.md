@@ -1,8 +1,4 @@
 # Dog_Vision
-Dog Vision: A web app that uses deep learning to identify dog breeds from uploaded images. Predicts breed with confidence score and provides Google search link for more information. User-friendly tool for dog breed identification and exploration.
-
-
-# Dog_Vision
 
 Dog Vision is a web application that uses deep learning to identify dog breeds from uploaded images. It provides a user-friendly interface for users to explore and discover the breed of their dogs with ease.
 
