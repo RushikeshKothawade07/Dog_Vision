@@ -3,5 +3,4 @@ streamlit
 pillow
 numpy
 tensorflow_hub
-base64
 pandas
