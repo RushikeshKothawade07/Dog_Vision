@@ -223,7 +223,7 @@ def run():
         st.markdown("<h3 style='text-align: left; color: #4d8df2; font-size: 24px;'>Creator Details</h3>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: left; font-size: 16px;'>Rushikesh Kothawade😄</p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: left; font-size: 16px;'>Vishwakarma Institute of Information Technology, Pune 🎓</p>", unsafe_allow_html=True)
-        st.markdown("<p style='text-align: left; font-size: 16px;'>👨‍💻Github Link: <a href='https://github.com/RushikeshKothawade07' target='_blank'>https://github.com/RushikeshKothawade07</a></p>", unsafe_allow_html=True)
+        st.markdown("<p style='text-align: left; font-size: 16px;'>👨‍💻Github Link: <a href='https://github.com/RushikeshKothawade07/Dog_Vision' target='_blank'>https://github.com/RushikeshKothawade07</a></p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: left; font-size: 16px;'>🎯YouTube Channel: <a href='https://www.youtube.com/@MLTakes' target='_blank'>ML Takes</a>❤️🤑</p>", unsafe_allow_html=True)
         st.markdown('---')
 
