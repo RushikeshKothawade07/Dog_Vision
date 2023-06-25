@@ -26,12 +26,13 @@ Dog Vision is a web application that uses deep learning to identify dog breeds f
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/YourUsername/Dog_Vision.git```
+   git clone https://github.com/YourUsername/Dog_Vision.git
+   ```
 
 2. Run the app:
 
   ```shell
    streamlit run app.py
-```
+   ```
 
 ## Enjoy using Dog Vision and have fun exploring the world of dog breeds!
