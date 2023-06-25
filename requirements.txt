@@ -1,0 +1,9 @@
+tensorflow
+streamlit
+PIL
+pillow
+numpy
+io
+tensorflow_hub
+base64
+pandas
