@@ -132,7 +132,7 @@ label_dict = {0: 'affenpinscher',
 
 @st.cache_resource
 def load_model():
-    custom_objects = {'KerasLayer': tf.keras.utils.custom_object_scope}
+    tf.keras.utils.get_custom_objects()['KerasLayer'] = KerasLayer
     model = tf.keras.models.load_model('20230625-04441687668282-all-images-Adam.h5', custom_objects=custom_objects)
     return model
 
