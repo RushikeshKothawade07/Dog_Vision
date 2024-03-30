@@ -132,13 +132,11 @@ label_dict = {0: 'affenpinscher',
 
 @st.cache_resource
 def load_model():
-    # Import KerasLayer from tensorflow_hub
-    from tensorflow_hub import KerasLayer
-    
-    # Directly specify KerasLayer in custom_objects if no other custom objects are needed
-    model = tf.keras.models.load_model('20230625-04441687668282-all-images-Adam.h5', custom_objects={'KerasLayer': KerasLayer})
+    # Explicitly use custom_object_scope for KerasLayer from TensorFlow Hub
+    with tf.keras.utils.custom_object_scope({'KerasLayer': hub.KerasLayer}):
+        model = tf.keras.models.load_model('20230625-04441687668282-all-images-Adam.h5')
     return model
-
+    
 model = load_model()
 
 def import_and_predict(image_data, model):
